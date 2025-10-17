@@ -1,4 +1,29 @@
 header{
-    background-color: red;
+    background: linear-gradient(135deg, blue,red);
+    text-align: center;
+    padding: 2em ;
+    color: white;
+    
 }
+
+body{
+    margin:0;
+}
+
+.productos{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+  padding: 2em;
+  border:black;
+  background-color: red;
+  margin: 0 auto;
+  margin-top: 1em;
+  border-radius: 1em;
+}
+
+
 
