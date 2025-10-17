@@ -1,0 +1,10 @@
+.navbar-brand{
+    color:red;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color:red;
+}
+.navbar-nav .nav-link.active{
+    color:black;
+}
