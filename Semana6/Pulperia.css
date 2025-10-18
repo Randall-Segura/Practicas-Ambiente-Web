@@ -1,24 +1,23 @@
-header{
-    background: linear-gradient(135deg, blue,red);
-    text-align: center;
-    padding: 2em ;
-    color: white;
-    
+header {
+  background: linear-gradient(135deg, blue, red);
+  text-align: center;
+  padding: 2em;
+  color: white;
 }
 
-body{
-    margin:0;
+body {
+  margin: 0;
 }
 
-.productos{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
+.productos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .card {
   padding: 1em 1em;
-  border:black;
+  border: black;
   background-color: whitesmoke;
   margin: 0 auto;
   margin-top: 2em;
@@ -27,31 +26,57 @@ body{
 }
 
 .card-body h5,
-.card-body p {
+.card-body p,
+h4 {
   margin: 0; /* elimina el margen por defecto */
 }
 
-.card-body{
-    padding:1em;
-    margin: 2em;
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    gap:25px;
+.card-body {
+  padding: 1em;
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 25px;
 }
 
+.card-title{
+    font-size: 1.5rem;
+}
+
+.Precios{
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(90deg, purple,black,red,blue);
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: moverColor 4s linear infinite;
+}
+
+@keyframes moverColor {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 300%;
+  }
+}
+    
 
 
 .btn1 {
   background: linear-gradient(135deg, #ff416c, #ff4b2b); /* degradado */
-  color: white;                  /* texto blanco */
-  border: none;                  /* sin borde */
-  padding: 10px 25px;            /* espacio interno */
-  border-radius: 30px;           /* esquinas redondeadas */
-  font-size: 1rem;               /* tamaño del texto */
-  cursor: pointer;               /* cambia el cursor */
-  transition: all 0.3s ease;     /* animación suave */
+  color: white; /* texto blanco */
+  border: none; /* sin borde */
+  padding: 10px 25px; /* espacio interno */
+  border-radius: 30px; /* esquinas redondeadas */
+  font-size: 1rem; /* tamaño del texto */
+  cursor: pointer; /* cambia el cursor */
+  transition: all 0.3s ease; /* animación suave */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* sombra */
 }
 
@@ -59,9 +84,17 @@ body{
 .btn1:hover {
   transform: scale(1.05); /* crece un poco */
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3); /* más sombra */
-  background: linear-gradient(135deg, #ff4b2b, #ff416c); /* cambia el degradado */
+  background: linear-gradient(
+    135deg,
+    #ff4b2b,
+    #ff416c
+  ); /* cambia el degradado */
 }
 
-
-
-
+footer {
+  background: linear-gradient(135deg, blue, red);
+  color: white;
+  padding: 0.5em;
+  margin-top: 2em;
+  text-align: center;
+}
