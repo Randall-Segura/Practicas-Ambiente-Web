@@ -17,13 +17,51 @@ body{
 }
 
 .card {
-  padding: 2em;
+  padding: 1em 1em;
   border:black;
-  background-color: red;
+  background-color: whitesmoke;
   margin: 0 auto;
-  margin-top: 1em;
+  margin-top: 2em;
   border-radius: 1em;
+  border: 2px solid black;
 }
+
+.card-body h5,
+.card-body p {
+  margin: 0; /* elimina el margen por defecto */
+}
+
+.card-body{
+    padding:1em;
+    margin: 2em;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap:25px;
+}
+
+
+
+.btn1 {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b); /* degradado */
+  color: white;                  /* texto blanco */
+  border: none;                  /* sin borde */
+  padding: 10px 25px;            /* espacio interno */
+  border-radius: 30px;           /* esquinas redondeadas */
+  font-size: 1rem;               /* tamaño del texto */
+  cursor: pointer;               /* cambia el cursor */
+  transition: all 0.3s ease;     /* animación suave */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* sombra */
+}
+
+/* efecto hover (cuando pasas el mouse) */
+.btn1:hover {
+  transform: scale(1.05); /* crece un poco */
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3); /* más sombra */
+  background: linear-gradient(135deg, #ff4b2b, #ff416c); /* cambia el degradado */
+}
+
 
 
 
