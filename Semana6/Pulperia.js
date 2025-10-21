@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded",function(){
-    document.getElementById("sinProductos").style.display="none";
+    document.getElementById("sinProductos").style.display="block";
+
+    
 
 
 

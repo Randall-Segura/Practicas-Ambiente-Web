@@ -68,12 +68,12 @@ h4 {
     
 
 
-.btn1,
-.btn2,
-.btn3,
-.btn4,
-.btn5,
-.btn6 {
+#btn1,
+#btn2,
+#btn3,
+#btn4,
+#btn5,
+#btn6 {
   background: linear-gradient(135deg, #ff416c, #ff4b2b); /* degradado */
   color: white; /* texto blanco */
   border: none; /* sin borde */
@@ -86,7 +86,7 @@ h4 {
 }
 
 /* efecto hover (cuando pasas el mouse) */
-.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover {
+#btn1:hover,#btn2:hover,#btn3:hover,#btn4:hover,#btn5:hover,#btn6:hover {
   transform: scale(1.05); /* crece un poco */
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3); /* más sombra */
   background: linear-gradient(
